@@ -1,0 +1,98 @@
+/* estilos.css */
+
+/* Estilos generales del contenedor */
+.sucursal-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sucursal-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos del formulario */
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Estilos de la tabla */
+.sucursal-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.sucursal-table th,
+.sucursal-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.sucursal-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sucursal-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sucursal-table tr:hover {
+  background-color: #ddd;
+}
+
+.sucursal-table button {
+  background-color: #007bff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.sucursal-table button:hover {
+  background-color: #0056b3;
+}
+
+.sucursal-table td button:last-child {
+  background-color: #dc3545;
+}
+
+.sucursal-table td button:last-child:hover {
+  background-color: #c82333;
+}
